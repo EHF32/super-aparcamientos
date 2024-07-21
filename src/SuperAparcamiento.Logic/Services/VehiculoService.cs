@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SuperAparcamiento.DataAccess.Repositories.Interfaces;
 using SuperAparcamiento.Logic.Contract.Vehiculo;
+using SuperAparcamiento.Logic.Services.Interfaces;
 using SuperAparcamiento.Model.Common;
 using SuperAparcamiento.Model.Entities;
 using SuperAparcamiento.Model.Exceptions;

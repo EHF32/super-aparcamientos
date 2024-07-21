@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using FromBodyAttribute = Microsoft.Azure.Functions.Worker.Http.FromBodyAttribute;
 using Microsoft.Extensions.DependencyInjection;
 using SuperAparcamiento.Logic.Contract.Vehiculo;
-using SuperAparcamiento.Logic.Services;
 using FluentValidation;
+using SuperAparcamiento.Logic.Services.Interfaces;
 
 namespace SuperAparcamiento.Functions.Functions;
 

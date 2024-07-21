@@ -1,6 +1,6 @@
 ﻿using SuperAparcamiento.Logic.Contract.Vehiculo;
 
-namespace SuperAparcamiento.Logic.Services;
+namespace SuperAparcamiento.Logic.Services.Interfaces;
 
 /// <summary>
 /// Servicio para la gestión de vehículos

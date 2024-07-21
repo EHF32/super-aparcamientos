@@ -3,8 +3,8 @@ using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.AspNetCore.Mvc;
-using SuperAparcamiento.Logic.Services;
 using SuperAparcamiento.Functions.Extensions;
+using SuperAparcamiento.Logic.Services.Interfaces;
 
 namespace SuperAparcamiento.Functions.Functions;
 

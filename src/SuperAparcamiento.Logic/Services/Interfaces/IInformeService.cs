@@ -1,6 +1,6 @@
 ﻿using ClosedXML.Excel;
 
-namespace SuperAparcamiento.Logic.Services;
+namespace SuperAparcamiento.Logic.Services.Interfaces;
 
 public interface IInformeService
 {

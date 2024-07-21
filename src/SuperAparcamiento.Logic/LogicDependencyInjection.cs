@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SuperAparcamiento.Logic.MappingProfiles;
 using SuperAparcamiento.Logic.Services;
+using SuperAparcamiento.Logic.Services.Interfaces;
 
 namespace SuperAparcamiento.Logic;
 

@@ -6,9 +6,9 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.AspNetCore.Mvc;
 using FromBodyAttribute = Microsoft.Azure.Functions.Worker.Http.FromBodyAttribute;
 using Microsoft.Extensions.DependencyInjection;
-using SuperAparcamiento.Logic.Services;
 using FluentValidation;
 using SuperAparcamiento.Logic.Contract.Estancias;
+using SuperAparcamiento.Logic.Services.Interfaces;
 
 namespace SuperAparcamiento.Functions.Functions;
 

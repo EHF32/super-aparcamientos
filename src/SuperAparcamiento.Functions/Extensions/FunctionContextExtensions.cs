@@ -5,6 +5,9 @@ namespace SuperAparcamiento.Functions.Extensions;
 
 public static class FunctionContextExtensions
 {
+    /// <summary>
+    /// Extensión para establecer el código de estado de la respuesta HTTP
+    /// </summary>
     public static void SetHttpResponseStatusCode(
         this FunctionContext context,
         HttpStatusCode statusCode)

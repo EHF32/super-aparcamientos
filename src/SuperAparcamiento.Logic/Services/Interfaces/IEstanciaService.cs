@@ -1,7 +1,7 @@
 ﻿using SuperAparcamiento.Logic.Contract.Estancias;
 using SuperAparcamiento.Model.Entities;
 
-namespace SuperAparcamiento.Logic.Services;
+namespace SuperAparcamiento.Logic.Services.Interfaces;
 
 public interface IEstanciaService
 {
@@ -18,7 +18,7 @@ public interface IEstanciaService
     /// coches oficiales y pone a cero el tiempo estacionado por los vehículos
     /// de residentes.
     /// </summary>
-    Task ComienzaMes(); 
+    Task ComienzaMes();
 
     /// <summary>
     /// Crea un vehículo por el tipo especificado

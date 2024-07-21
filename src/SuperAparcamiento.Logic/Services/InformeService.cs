@@ -1,6 +1,7 @@
 ﻿using ClosedXML.Excel;
 using Microsoft.EntityFrameworkCore;
 using SuperAparcamiento.DataAccess.Repositories.Interfaces;
+using SuperAparcamiento.Logic.Services.Interfaces;
 using SuperAparcamiento.Model.Common;
 
 namespace SuperAparcamiento.Logic.Services;
