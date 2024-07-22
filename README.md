@@ -20,7 +20,9 @@ La solución esta dividida en los siguientes proyectos:
 
 ## Swagger
 
-La documentación Swagger de la API se encuentra en la siguiente dirección: https://super-aparcamientos.ahc.software/swagger/ui
+La documentación Swagger de la API se encuentra en la siguiente dirección:
+
+- https://super-aparcamientos.ahc.software/swagger/ui
 
 ## Modelo de datos
 
